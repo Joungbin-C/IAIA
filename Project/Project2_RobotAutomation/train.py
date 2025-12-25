@@ -9,21 +9,21 @@ def train_yolo_model():
         print("CUDA is available. Using GPU.")
     else:
         device = 'cpu'
-        print("CUDA is not available. Using CPU.")
+        print("⚠CUDA is not available. Using CPU.")
 
     model = YOLO('yolov8s.pt')
 
     try:
         results = model.train(
-            data=r'C:/Users/joung/Downloads/spinnaker_python-4.2.0.88-cp310-cp310-win_amd64/train/surface-detecting-5/data.yaml',
+            data=r'F:\한동대\8학기\IAIA\IAIA_robot_project_machine_vision\train\surface-detecting-4\data.yaml',
 
             # 학습 기본 설정
-            epochs=100,         
-            imgsz=640,       
-            batch=8,  
+            epochs=100,
+            imgsz=640,
+            batch=8,
             device=device,
-            patience=20,
-            workers=8,
+            patience=30,
+            workers=0,
             cache=True,
 
             optimizer='AdamW',
@@ -35,7 +35,7 @@ def train_yolo_model():
             mixup=0.0,
             flipud=0.0,
 
-            project=r'C:/Users/joung/Downloads/spinnaker_python-4.2.0.88-cp310-cp310-win_amd64/train/runs',
+            project=r'runs',
             name='yolov8s_surface_defect_v1',
         )
 
@@ -48,4 +48,3 @@ def train_yolo_model():
 
 if __name__ == '__main__':
     train_yolo_model()
-
