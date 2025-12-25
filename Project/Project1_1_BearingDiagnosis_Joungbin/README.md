@@ -179,7 +179,7 @@ Classification accuracies for different feature sets and classifiers are shown b
 
 - Wavelet  
 
-![Wavelet_confusion](.\img\Wavelet_confusion.png)
+![Wavelet_confusion](https://github.com/Joungbin-C/IAIA/blob/main/Project/Project1_1_BearingDiagnosis_Joungbin/img/Wavelet_confusion.png)
 
 - All Combined  
 
@@ -300,4 +300,5 @@ The proposed approach successfully designed an intelligent diagnostic algorithm 
 4. Y. K. Kim,  
    *Industrial AI: Feature Extraction and Machine Learning*,  
    Lecture notes, Industrial AI course, 2024.
+
 
