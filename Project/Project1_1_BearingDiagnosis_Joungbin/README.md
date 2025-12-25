@@ -64,13 +64,16 @@ The characteristic fault frequencies were calculated using the bearing geometry 
   BPFO (Outer\ race\ fault) = \frac {n_b} 2 \times fr \times \left(1- \frac {d} {D}\right) = 43.5954\ [Hz]  
   $$
 
-- $$  BPFI (Inner\ race\ fault) = \frac {n_b} 2 \times fr \times \left(1+ \frac {d} {D}\right) = 64.7379\ [Hz]  
+- $$
+  BPFI (Inner\ race\ fault) = \frac {n_b} 2 \times fr \times \left(1+ \frac {d} {D}\right) = 64.7379\ [Hz]  
   $$
 
-- $$  BSF (Ball\ fault) = \frac {D} {2d} \times fr \times \left(1- \left(\frac {d} {D}\right)^2\right) = 20.5367\ [Hz]  
+- $$
+  BSF (Ball\ fault) = \frac {D} {2d} \times fr \times \left(1- \left(\frac {d} {D}\right)^2\right) = 20.5367\ [Hz]  
   $$
 
-- $$  FTF (Cage\ fault) = \frac {fr} 2 \times \left(1- \frac d D \right) = 3.3535\ [Hz]  
+- $$
+  FTF (Cage\ fault) = \frac {fr} 2 \times \left(1- \frac d D \right) = 3.3535\ [Hz]  
   $$
 
 These characteristic frequencies were utilized for envelope spectrum–based feature extraction.
@@ -297,6 +300,7 @@ The proposed approach successfully designed an intelligent diagnostic algorithm 
 4. Y. K. Kim,  
    *Industrial AI: Feature Extraction and Machine Learning*,  
    Lecture notes, Industrial AI course, 2024.
+
 
 
 
