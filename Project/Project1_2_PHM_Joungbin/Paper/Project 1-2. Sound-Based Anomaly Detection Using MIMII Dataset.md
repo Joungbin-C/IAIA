@@ -30,7 +30,7 @@ The **MIMII (Malfunctioning Industrial Machine Investigation and Inspection) dat
 
 The audio data were recorded using an **eight-channel circular microphone array**, and the recording setup is illustrated in **Figure 1**. Each audio sample is provided as a single **10-second segment** and was recorded at a **sampling rate of 16 kHz**. To simulate realistic factory noise conditions, background noise collected from multiple real factories was mixed with the target machine sounds, resulting in audio data with three different signal-to-noise ratio (SNR) levels: **6 dB, 0 dB, and −6 dB**. These correspond to low-noise, moderate-noise, and high-noise industrial environments, respectively.
 
-![data_table](.\img\data_table.png)
+![data_table](./img/data_table.png)
 
 **Table 1.** MIMII Dataset Content Details
 
@@ -173,7 +173,7 @@ Three unsupervised models are employed:
 
    - One-Class Support Vector Machine learns a decision boundary that encloses the majority of normal data samples in the feature space. During inference, samples lying outside this learned boundary are considered anomalous. By utilizing kernel functions, OCSVM can model complex, non-linear data distributions, making it effective for detecting subtle deviations from normal behavior.
 
-   ![OCSVM](.\img\OCSVM.png)
+   ![OCSVM](./img/OCSVM.png)
 
    **Figure 5.** Simple OCSVM Logic Visualized Description
 
@@ -195,7 +195,7 @@ Three unsupervised models are employed:
 
 ### 3.1 Experimental Setup
 
-![dataset_table](.\img\dataset_table.png)
+![dataset_table](./img/dataset_table.png)
 
 **Table 2.** Sample Counts used for DDAE Training and Anomaly Detection Train and Test
 
@@ -213,21 +213,21 @@ The entire pipeline, from DDAE training to anomaly detection and testing, was co
 
 ### 3.2 Feature Extraction
 
-![statistical_feature](.\img\statistical_feature.png)
+![statistical_feature](./img/statistical_feature.png)
 
 **Figure 7.** Statistical Feature Extraction Result
 
 
 
-![fanMFCC](.\img\fanMFCC.png)
+![fanMFCC](./img/fanMFCC.png)
 
 **Figure 8.** The MFCC Feature of Fan Data(Top two: raw normal and abnormal, Bottom two: denoised normal and abnormal)
 
-![pumpMFCC](.\img\pumpMFCC.png)
+![pumpMFCC](./img/pumpMFCC.png)
 
 **Figure 9.** The MFCC Feature of Pump Data(Top two: raw normal and abnormal, Bottom two: denoised normal and abnormal)
 
-![sliderMFCC](.\img\sliderMFCC.png)
+![sliderMFCC](./img/sliderMFCC.png)
 
 **Figure 10.** The MFCC Feature of Slide Data(Top two: raw normal and abnormal, Bottom two: denoised normal and abnormal)
 
@@ -249,7 +249,7 @@ When comparing the experimental results with those reported in the reference pap
 
 
 
-<img src=".\img\confusion_matrix.png" alt="fan_NF0.7_snr0_LOF" style="zoom:33%;" />
+<img src="./img/confusion_matrix.png" alt="fan_NF0.7_snr0_LOF" style="zoom:33%;" />
 
 **Figure 11.** Confusion Matrix
 
@@ -335,5 +335,6 @@ Furthermore, it was observed that the optimal anomaly detection model and noise 
 2. Spot Intelligence. (2024, May 21). *Isolation Forest*. Retrieved from https://spotintelligence.com/2024/05/21/isolation-forest/
 3. Maithani, G. (n.d.). *One-Class SVM (OC-SVM)*. Medium. Retrieved from https://medium.com/@mail.garima7/one-class-svm-oc-svm-9ade87da6b10
 4. godongyoung. (2019, March 11). *Local Outlier Factor (LOF)*. Retrieved from https://godongyoung.github.io/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/2019/03/11/Local-Outlier-Factor%28LOF%29.html
+
 
 
