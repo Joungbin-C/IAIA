@@ -302,3 +302,4 @@ The proposed approach successfully designed an intelligent diagnostic algorithm 
    Lecture notes, Industrial AI course, 2024.
 
 
+
