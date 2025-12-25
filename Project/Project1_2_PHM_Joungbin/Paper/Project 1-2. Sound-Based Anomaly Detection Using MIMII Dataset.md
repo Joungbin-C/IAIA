@@ -121,7 +121,7 @@ $$
 
 #### 2.4.2 Network Architecture
 
-![DDAE_structure](https://github.com/Joungbin-C/IAIA/tree/main/Project/Project1_2_PHM_Joungbin/Paper/img/DDAE_structure.png)
+![DDAE_structure](./img/DDAE_structure.png)
 
 **Figure 3.** Proposed DDAE network architectures by type of features: (a) an undercomplete DDAE for MFCC-based audio features; (b) an overcomplete DDAE for basic audio features.
 
@@ -335,6 +335,7 @@ Furthermore, it was observed that the optimal anomaly detection model and noise 
 2. Spot Intelligence. (2024, May 21). *Isolation Forest*. Retrieved from https://spotintelligence.com/2024/05/21/isolation-forest/
 3. Maithani, G. (n.d.). *One-Class SVM (OC-SVM)*. Medium. Retrieved from https://medium.com/@mail.garima7/one-class-svm-oc-svm-9ade87da6b10
 4. godongyoung. (2019, March 11). *Local Outlier Factor (LOF)*. Retrieved from https://godongyoung.github.io/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D/2019/03/11/Local-Outlier-Factor%28LOF%29.html
+
 
 
 
