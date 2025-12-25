@@ -66,7 +66,9 @@ The characteristic fault frequencies were calculated using the bearing geometry 
 
 
 - $$
-  BPFI (Inner\ race\ fault) = \frac {n_b} 2 \times fr \times \left(1+ \frac {d} {D}\right) = 64.7379\ [Hz]  
+  BPFI (Inner\ race\ fault) =
+  \frac {n_b} 2 \times fr \times \left(1+
+  \frac {d} {D}\right) = 64.7379\ [Hz]  
   $$
 
 
@@ -303,6 +305,7 @@ The proposed approach successfully designed an intelligent diagnostic algorithm 
 4. Y. K. Kim,  
    *Industrial AI: Feature Extraction and Machine Learning*,  
    Lecture notes, Industrial AI course, 2024.
+
 
 
 
