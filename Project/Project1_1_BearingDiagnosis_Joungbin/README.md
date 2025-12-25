@@ -171,11 +171,11 @@ Classification accuracies for different feature sets and classifiers are shown b
 
 - Statistical  
 
-![Statistical_confusion](.\img\Statistical_confusion.png)
+![Statistical_confusion](https://github.com/Joungbin-C/IAIA/blob/main/Project/Project1_1_BearingDiagnosis_Joungbin/img/Statistical_confusion.png)
 
 - Envelope  
 
-![Envelope_comfusion](.\img\Envelope_comfusion.png)
+![Envelope_comfusion](https://github.com/Joungbin-C/IAIA/blob/main/Project/Project1_1_BearingDiagnosis_Joungbin/img/Envelope_comfusion.png)
 
 - Wavelet  
 
@@ -183,7 +183,7 @@ Classification accuracies for different feature sets and classifiers are shown b
 
 - All Combined  
 
-![ALL Combined_confusion](.\img\ALL Combined_confusion.png)
+![ALL Combined_confusion](https://github.com/Joungbin-C/IAIA/blob/main/Project/Project1_1_BearingDiagnosis_Joungbin/img/ALL%20Combined_confusion.png)
 
 
 
@@ -300,3 +300,4 @@ The proposed approach successfully designed an intelligent diagnostic algorithm 
 4. Y. K. Kim,  
    *Industrial AI: Feature Extraction and Machine Learning*,  
    Lecture notes, Industrial AI course, 2024.
+
